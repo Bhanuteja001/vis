@@ -1,0 +1,23 @@
+/* home */
+.mystyle {
+  font-family: "Oswald";
+}
+.mystlyeP {
+  font-family: "Mulish";
+}
+
+.card-container:hover svg circle {
+  stroke: white;
+  fill: #4b6a44; /* gray-900 */
+}
+
+.card-container:hover img {
+  filter: invert(1);
+}
+
+  .icon:hover path {
+    fill: #53724C;
+  }
+
+
+  
