@@ -8,7 +8,7 @@ export const AboutBottom = () => {
   }, []);
   return (
     <section>
-      <div className=" my-10 md:my-20 lg:my-30 xl:my-40 relative h-[360px] overflow-hidden">
+      <div className=" my-5 md:my-10 lg:my-10 xl:my-15 relative h-[360px] overflow-hidden">
         <div className="absolute inset-0 bg-[url('/AboutAssets/aboutbtm.png')] bg-cover bg-center blur-[2.5px] "></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-[28px] md:text-[36px] lg:text-[48px]  font-bold font-[Oswald] tracking-[2px] mb-2">Have Questions About Our Products?</h1>
@@ -24,6 +24,7 @@ export const AboutBottom = () => {
     </section>
   )
 }
+
 export const MainCard = (a) => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -62,7 +63,7 @@ const About = () => {
       <MainCard title="About Us" para="Delivering trusted aquaculture products that support clean water and healthy growth." page="About" showBreadcrumb={true} />
       {/* We are here */}
       <section>
-        <div className="flex flex-wrap xl:flex-nowrap md:flex-col lg:flex-row items-start justify-center gap-5 px-4 md:px-20   md:py-18 mt-8 md:mt-10 ">
+        <div className="flex flex-wrap xl:flex-nowrap md:flex-col lg:flex-row items-start justify-center gap-5 px-4 md:px-20 md:py-3 lg:py-6 mt-8 md:mt-4">
           {/* Right Content */}
           <div className="w-full xl:w-[50%]">
             <h2 className="text-[28px] md:text-[36px] lg:text-[48px] font-semibold font-['Oswald'] text-[#53724C]">Who We Are</h2>
@@ -73,7 +74,7 @@ const About = () => {
             </p>
 
             {/* Feature Boxes */}
-            <div className=" flex flex-wrap md:flex-nowrap space-y-20 mt-5">
+            <div className=" flex flex-wrap md:flex-nowrap space-y-8  md:space-x-6 lg:space-x-0 md:space-y-10 mt-5">
               {/* Feature 1 */}
               <div className="w-full  md:w-[340px]   flex flex-col gap-2 group hover:cursor-pointer">
                 {/* Top section with icon and headings */}
@@ -118,7 +119,7 @@ const About = () => {
       </section>
       {/* Strengths */}
       <section>
-        <div className="bg-[#DFF0DB] py-10 overflow-x-hidden">
+        <div className="bg-[#DFF0DB] overflow-x-hidden my-5">
           <div className="flex flex-col justify-center items-center py-10 text-center">
             <div className="text-[28px] md:text-[48px] font-['Oswald'] text-[#3F573A] font-bold mystyle">
               Our Core Strengths
@@ -129,7 +130,7 @@ const About = () => {
           </div>
 
           {/* Card wrapper */}
-          <div className="flex flex-wrap xl:flex-nowrap justify-center gap-8 px-4 lg:px-10 max-w-[1600px] mx-auto ">
+          <div className="flex flex-wrap xl:flex-nowrap justify-center gap-8 px-4 py-10 lg:px-10 max-w-[1600px] mx-auto ">
             {[
               {
                 title: ['Expert', 'Formulations'],
@@ -154,7 +155,7 @@ const About = () => {
             ].map((card, i) => (
               <div
                 key={i}
-                className="w-[300px] min-h-[344px] p-6 bg-white border border-gray-200 rounded-3xl shadow-sm text-gray-900 group hover:bg-[#6B9362] hover:text-white transition-colors duration-300 text-center"
+                className="w-[300px] min-h-[360px] p-6 bg-white border border-gray-200 rounded-3xl shadow-sm text-gray-900 group hover:bg-[#6B9362] hover:text-white transition-colors duration-300 text-center"
               >
                 <div className="relative flex items-center justify-center h-[100px] w-[100px] mx-auto">
                   <svg
@@ -193,17 +194,13 @@ const About = () => {
           </div>
         </div>
       </section>
-
       {/* Journey */}
-
       <section>
         <div className="py-10">
-          <h1 className='text-[32px] sm:text-[40px] md:text-[48px] font-["Oswald"] font-bold text-[#53724C] text-center md:pb-10 lg:pb-30'>
+          <h1 className='text-[32px] sm:text-[40px] md:text-[48px] font-["Oswald"] font-bold text-[#53724C] text-center md:pb-20 lg:pb-25'>
             Our Journey
           </h1>
-
           <div className="relative flex flex-col md:flex-row justify-center items-center gap-28 py-10 md:py-20 px-4">
-
             {/* Timeline Line - Horizontal for md+ */}
             <div className="absolute top-[40%] left-0 right-0 mx-auto w-full md:w-[calc(100%-300px)] lg:w-[calc(100%-500px)] h-2 bg-[#DFF0DB] rounded hidden md:block"></div>
 
@@ -282,9 +279,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-
-
 
       {/* About Bottom */}
       <AboutBottom />

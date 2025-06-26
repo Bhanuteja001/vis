@@ -37,7 +37,7 @@ const FeedSupplement = () => {
             )}
           </div>
           <div className="rounded lg:w-1/2 flex justify-center">
-            <img src="/ProductsAssets/prawn.png" className='w-[236px] h-[236px] lg:h-[360px] lg:w-[360px] ' alt="" />
+            <img src="/ProductsAssets/prawn.png" className='w-[236px] h-[236px] lg:h-[360px] lg:w-[360px]' alt="" />
           </div>
         </div>
         <div className=" text-start lg:text-center  py-2">
@@ -47,7 +47,7 @@ const FeedSupplement = () => {
           <div className="text-[24px] md:text-[28px] lg:text-[40px] font-bold font-['Oswald'] text-start">FEED INCLUSION RATE:</div>
           <p className='text-[16px] md:text-[20px] lg:text-[24px] font-["Mulish"] text-start py-4'> 4 to 5 gms Pravit feed supplement per Kg Feed</p>
         </div>
-        <div className="text-center  ">
+        <div className="text-center md:4 lg:py-12">
           <button className='bg-[#21367D] p-4 px-2 md:p-4 w-full rounded-2xl text-white text-[16px] font-medium font-["Mulish"]'><span className='text-xl font-bold'>Note:</span> Any type of Antibiotic is not used in this Feed Supplement Pravit</button>
         </div>
       </div>

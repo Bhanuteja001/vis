@@ -15,7 +15,7 @@ const Contact = () => {
     
       {/* form */}
       <section>
-        <div className="min-h-screen bg-white flex flex-col lg:flex-row items-center justify-center gap-8 md-gap-10 px-4 md:px-6 py-10 md:py-25">
+        <div className="h-full bg-white flex flex-col lg:flex-row items-center justify-center gap-8 md:gap-10 px-4 md:px-6 lg:px-15 py-10 md:py-10 lg:py-15">
           <div className="w-full md:w-[100%] max-w-4xl p-2">
             <h2 className="text-[28px] md:text-[48px] font-bold text-[#53724C] font-['Oswald'] text-center mb-8">
               Get In Touch With Us
@@ -45,7 +45,7 @@ const Contact = () => {
               />
               <textarea
                 rows="4"
-                placeholder="Enter your email address..."
+                placeholder="Message..."
                 className="border border-gray-900 p-4 resize-none rounded-lg w-full focus:outline-none focus:ring-0 focus:border-gray-900 placeholder-[#6D6D6D]"
               ></textarea>
               <button
@@ -58,9 +58,8 @@ const Contact = () => {
           </div>
 
            {/* conatiner */}
-          <div className="w-full h-full md:w-[704px] md:min-h-[465px] lg:h-[609px] lg:w-[532px ] bg-[#53724C] text-white rounded-3xl  mt-8 md:mt-0 flex flex-col justify-center items-center p-4 md:py-8 gap-8 md:gap-12">
+          <div className="w-full h-full md:w-[704px] md:min-h-[465px] lg:h-[609px] lg:w-[532px ] bg-[#53724C] text-white rounded-3xl mt-4 md:mt-0 flex flex-col justify-center items-center p-4 md:py-8 gap-8 md:gap-12">
             <h2 className="text-[28px] md:text-[36px] lg:text-[40px] font-bold font-['Oswald'] tracking-wide ">Contact Information</h2>
-
             <div className="flex flex-col justify-start w-full ps-2 gap-3 md:gap-6 ">
               <div className="flex items-start gap-2 md:gap-4">
                 {/* <span className="text-2xl">📍</span> */}
@@ -91,8 +90,6 @@ const Contact = () => {
             </div>
 
           </div>
-
-
         </div>
       </section>
 

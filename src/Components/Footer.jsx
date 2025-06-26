@@ -151,7 +151,7 @@ const Footer = () => {
 
           {/* Products */}
           <div className="flex flex-col items-start  md:w-[30%] lg:w-[30%]">
-            <h2 className="text-[20px] md:text-[24px] font-bold mb-5 font-[Oswald] tracking-wide">
+            <h2 className="text-[20px] text-center md:text-[24px] font-bold mb-5 font-[Oswald] tracking-wide">
               Products
             </h2>
             <ul className="space-y-3 text-[16px] md:text-[18px] lg:text-[20px] font-[Mulish] font-semibold">

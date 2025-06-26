@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-export default function NewNavbar() {
+export default function Navbar() {
   const linkClasses = (isActive) =>
     `${isActive ? "font-bold" : "text-base font-medium"} transition-all duration-300`;
 
@@ -66,8 +66,8 @@ export default function NewNavbar() {
             alt="Logo" 
             className={`${
               // Increase logo size on non-home pages up to md screens
-              !isHomePage ? "h-[35px] w-[86px] md:h-[28px] md:w-[100px] lg:h-[64px] lg:w-[106px]" 
-              : "h-[42px] w-[71px] md:h-[52px] md:w-[86px] lg:h-[64px] lg:w-[106px]"
+              !isHomePage ? "h-[35px] w-[86px] md:h-[35px] md:w-[65px] lg:h-[64px] lg:w-[106px]" 
+              : "h-[42px] w-[71px] md:h-[52px] md:w-[80px] lg:h-[64px] lg:w-[106px]"
             } mx-3`} 
           />
         </NavLink>
@@ -90,6 +90,7 @@ export default function NewNavbar() {
     </nav>
   );
 }
+
 // import React, { useEffect, useState } from "react";
 // import { NavLink, useLocation } from "react-router-dom";
 
